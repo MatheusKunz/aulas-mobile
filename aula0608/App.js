@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Text, Button } from "react-native";
 
 export default function App() {
   return (
@@ -10,6 +10,12 @@ export default function App() {
       }}
     >
       <Text>Aula 0608</Text>
+      <Button
+ 
+  title="Learn More"
+  color="#841584"
+  accessibilityLabel="Learn more about this purple button"
+/>
     </View>
   );
 }
